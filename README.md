@@ -1,31 +1,30 @@
 # MicroProjet_Pharo_SnakesAndLadders
+
 Il s'agit de mon premier projet de programmation. Voir le dépot de mon professeur pour installer le package Easy-UI permettant de créer le jeu du Snake : https://github.com/bouraqadi/PharoMisc/tree/master/EasyUI
 
 Description du projet Pharo
 
-Introduction : 
+	Introduction 
 
 Mon projet consistait en la reproduction du fameux jeu Snakes and Ladders. J’ai décidé d’ajouter une petite nouveauté afin d’apporter un peu de fraicheur à cet ancêtre des jeux. Le principe de base est assez simple : un serpent rampant sur une sol – de taille fixe - dont la taille croît au fur et à mesure qu’il mange (des pommes, oui un serpent qui mange des pommes : Welcome to 2022). 
 
 Trois difficultés : 
-1 - le serpent ne peut pas se manger lui-même = pas de collision avec son propre-corps,
-2 - sa vitesse augmente avec sa taille,
-3 - le sol n’est pas extensible (grille de taille fixe).
+
+0) le serpent ne peut pas se manger lui-même = pas de collision avec son propre-corps,
+1) sa vitesse augmente avec sa taille,
+2) le sol n’est pas extensible (grille de taille fixe).
 Ainsi plus il grandit, plus il faut être minutieux dans ses choix de déplacements tout en y accordant de moins en moins de temps.
 
 L’ajout apporté au jeu est un « Bad fruit ». Un fruit qui, s’il est mangé par le serpent, le fait rétrécir (d’une taille). Il peut s’avérer utile lorsque le serpent devient trop grand. Ce fruit-là n’engendre ni de perte ni gain de point, il ne sert qu’à rendre la partie plus intéressante. La concurrence entre les joueurs ne se limite plus qu’à la taille de la grille (une fois le serpent « trop » grand il n’y a plus de place pour se déplacer) sur laquelle ils jouent mais sur leur façon de gérer la taille de leur serpent.
 
-Documentation : 
+	Documentation 
 
-	Les règles du jeu
+Les règles du jeu
 
 0)	Aller dans la classe EzApp, puis dans la sous classe EzMicroProjetApp, lancer la démo dans Class Side.
 1)	Pour commencer à jouer, appuyer sur la barre espace.
 2)	Les déplacements se font avec les quatre flèches du clavier. 
 3)	Vous pouvez choisir de recommencer la partie en choisissant « oui » avec les flèches du clavier et appuyer sur espace. Vous pouvez tout simplement arrêter de jouer, en choisissant « non ».
-
-
-
 
 
 Les méthodes 
@@ -49,11 +48,10 @@ Protocole « Setter » : contenant la méthode grilSize pour initialiser le nomb
 
 Protocole « squares » : s’y trouvent les méthodes d’ajout de carré à la suite de la chaîne ou de retrait en fonction de s’il s’agit d’un good ou bad fruit qui est mangé. Dans la méthode « removeSquare » il y’a une condition pour que la taille du serpent ne soit pas déjà égale à 1, auquel cas la partie se termine (bad fruit à consommer avec modération !). Les « addSquareLeft » « -Right » « -Up » etc. Sont faites pour que l’ajout de carré à la suite du serpent ne crée pas de collision avec ce dernier en fonction de la direction dans laquelle il avance.
 
-Lien YouTube de la vidéo « démonstration » du jeu : 
+Lien YouTube de la vidéo « démonstration » du jeu :
 
-https://youtu.be/XuCmBHpG1BE
+	https://youtu.be/XuCmBHpG1BE
 
 
 *J’ai voulu créer une Map à la main à l’aide de la classe EzBox déjà implémentée d’abord pour avoir accès aux origines de chaque carreau de la grille (pratique pour déplacer le serpent), mais aussi pour pouvoir modifier le nombre de carreau, leur taille en fonction de celle de la fenêtre et leur couleur (on essaye de garder un certain coté esthétique derrière toute cette technique).
-![image](https://user-images.githubusercontent.com/106586037/200013512-ec4f148e-532d-49a7-af0a-757d3bebfb88.png)
 
