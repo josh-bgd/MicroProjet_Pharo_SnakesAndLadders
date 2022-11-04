@@ -1,5 +1,5 @@
 # MicroProjet_Pharo_SnakesAndLadders
-Il s'agit de mon premier projet de programmation.
+Il s'agit de mon premier projet de programmation. Voir le dépot de mon professeur pour installer l'AppMaker : https://github.com/bouraqadi/PharoMisc
 
 Description du projet Pharo
 
