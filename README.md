@@ -1,6 +1,6 @@
 # MicroProjet_Pharo_SnakesAndLadders
 
-Il s'agit de mon premier projet de programmation. Voir le dépot de mon professeur pour installer le package Easy-UI permettant de créer le jeu du Snake : https://github.com/bouraqadi/PharoMisc/tree/master/EasyUI
+Il s'agit de mon premier projet de programmation. Voir le dépot de mon professeur pour installer le package Easy-UI permettant de créer le jeu du Snake : https://github.com/bouraqadi/PharoMisc/tree/master/EasyUI. J'ai placé dans le dossier EasyUI les classes crées par mon professeur, ainsi que celle que j'ai développée à partir de ces premières : "EzMicroPrrojetApp.st"
 
 Description du projet Pharo
 
