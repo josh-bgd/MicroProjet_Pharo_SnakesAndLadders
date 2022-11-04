@@ -52,3 +52,4 @@ EzImageDrawing >> image [
 EzImageDrawing >> image: anObject [
 	image := anObject
 ]
+ 
