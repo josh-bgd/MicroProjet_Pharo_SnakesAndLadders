@@ -6,4 +6,4 @@ Character >> asKeyCombination [
 	self asLowercase = self ifTrue: [^ KMSingleKeyCombination from: self].
 	lowerCaseCombination := KMSingleKeyCombination from: self asLowercase.
 	^KMModifiedKeyCombination modifier: KMModifier shift character: lowerCaseCombination.
-]
+] 
