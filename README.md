@@ -1,5 +1,5 @@
 # MicroProjet_Pharo_SnakesAndLadders
-Il s'agit de mon premier projet de programmation. Voir le dépot de mon professeur pour installer l'AppMaker : https://github.com/bouraqadi/PharoMisc
+Il s'agit de mon premier projet de programmation. Voir le dépot de mon professeur pour installer le package Easy-UI permettant de créer le jeu du Snake : https://github.com/bouraqadi/PharoMisc/tree/master/EasyUI
 
 Description du projet Pharo
 
