@@ -7,4 +7,4 @@ Trait {
 EzTDemoApp classSide >> demo [
 	<example>
 	self newOpenWindow
-]
+] 
